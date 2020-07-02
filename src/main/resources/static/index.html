@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+    <meta charset="ISO-8859-1" />
+    <title>Category Addition</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+
+    <script src="postCategory.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h3>Category Create form</h3>
+    <form id="Cateform">
+
+        <div class="form-group">
+            <input type="hidden" class="form-control" id="CatId" name="categoryId">
+        </div>
+
+        <div class="form-group">
+            <label for="CatName">Category Name:</label>
+            <input type="text" class="form-control" id="CatName"  name="CategoryName">
+        </div>
+        <div class="form-group">
+            <label for="Catdesc">Category Description</label>
+            <input type="text" class="form-control" id="Catdesc"  name="Description">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</div>
+</body>
