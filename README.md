@@ -8,4 +8,4 @@ programming languages : Java,Html,CSS, Javascript
 Tools Used : intellij IDEA, Xampp Server, Mysql Database
 
 
-Other features : Swagger Documentation
+Other features : Swagger Documentation, Hibernate ORM
